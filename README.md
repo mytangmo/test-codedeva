@@ -1,8 +1,9 @@
-# React + Vite
+ใช้ Vite ReactJs และ Ant Design, Mui ในการพัฒนา มีการดึงข้อมูลโดย axios จาก MySQL ด้วย NodeJS 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Flow 
+Register
+Login
+Home  
 
-Currently, two official plugins are available:
+Header เปลี่ยนไปเมื่อมีการ login เข้าใช้งานโดยเก้บข้อมูลไว้ใน localstore  และเมื่อ logout หน้าจะย้อนกลับมาที่หน้า home และ header จะเปลี่ยนไป
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
