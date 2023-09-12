@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css?family=Kanit");
+
+* {
+  box-sizing: content-box !important;
+  box-sizing: border-box !important;
+  font-family: "Kanit" !important;
+  font-variant: tabular-nums;
+}
+
+body {
+  font-size: 14px;
+  color: #333333 !important;
+  background-color: #f0f0f0;
+  background-color: white;
+  margin: 0px !important;
+}
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+.dfc {
+  display: flex;
+  /* flex-direction: column; */
+}
+.df-centerY {
+  display: flex;
+  align-items: center;
+}
+
+.df-centerXY {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.df-centerX {
+  display: flex;
+  justify-content: center;
+}
+
+.dfc-spaceBtw {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100% !important;
+}
+
+.content {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #f4f4f4;
+}
